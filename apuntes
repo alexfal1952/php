@@ -1,0 +1,36 @@
+php artisan --version (ver vercion laravel)
+*crea proyecto laravel
+
+composer create-project laravel/laravel mi-proyecto-laravel
+composer create-project laravel/laravel mi-proyecto-laravel 5.5.*
+
+*levantar servidor
+php artisan serve
+php arisan make:auth
+php artisan migrate
+
+npm install (instala todo lo que nesesita jnode)
+npm run watch (se queda erscuchando lo que pase)
+
+
+ruta parra api
+Route::apiResource('photos', 'PhotoController');
+php artisan make:controller API/PensamientoController --api
+
+php artisan make:model Pensamiento -m
+
+php artisan migrate
+
+$ php artisan route:list
+
+php artisan migratec
+
+artisan make:model Pensamiento -m
+
+php artisan make:controller PensamientoController --resource
+
+
+
+
+
+
